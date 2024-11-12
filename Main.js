@@ -230,4 +230,61 @@ const recentPosts = [
   
   // Call the render function
   renderRecentPosts();
+
   
+  const reviews = [
+    {
+      img: 'pictures/woman.svg',
+      text: 'I quickly found the right tour for me, but I had a few questions about the hotel. Tech support answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.',
+      name: 'Jannike Borg',
+      job: 'Publisher'
+    },
+    {
+      img: 'pictures/lebron.svg',
+      text: 'I quickly found the right tour for me, but I had a few questions about the hotel. Tech support answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.',
+      name: 'LeBron Durant',
+      job: 'Flight attendant'
+    },
+    {
+      img: 'pictures/piha.svg',
+      text: 'I quickly found the right tour for me, but I had a few questions about the hotel. Tech support answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.',
+      name: 'Kaarel Piho',
+      job: 'Chiropodist'
+    }
+  ];
+
+  // Function to render reviews dynamically
+  function renderReviews() {
+    const container = document.getElementById('reviewsContainer');
+
+    reviews.forEach((review) => {
+      // Create elements
+      const reviewDiv = document.createElement('div');
+      const img = document.createElement('img');
+      const text = document.createElement('p');
+      const name = document.createElement('h2');
+      const job = document.createElement('h3');
+
+      // Set attributes and text content
+      img.src = review.img;
+      img.alt = review.name;
+      img.className = 'wom';
+      text.className = 'hotel';
+      text.textContent = review.text;
+      name.innerHTML = `<span class="pub">${review.name},</span>`;
+      job.className = 'hot';
+      job.textContent = review.job;
+
+      // Append elements to reviewDiv
+      reviewDiv.appendChild(img);
+      reviewDiv.appendChild(text);
+      reviewDiv.appendChild(name);
+      reviewDiv.appendChild(job);
+
+      // Append reviewDiv to container
+      container.appendChild(reviewDiv);
+    });
+  }
+
+  // Call the function to render reviews
+  renderReviews();

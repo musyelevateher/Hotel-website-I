@@ -1,5 +1,4 @@
 body {
-font-family: Arial, sans-serif;
 margin: 0;
 padding: 0;
 overflow-x: hidden;
@@ -133,7 +132,7 @@ margin-left: -330px;
 .abda {
 font-size: 15px;
 font-family: 'Montserrat';
-font-style: normal;
+font-style: normal
 font-weight: 400;
 font-size: 16px;
 line-height: 18px;
@@ -203,21 +202,21 @@ align-self: stretch;
 flex-grow: 0;
 }
 .listcard {
-  justify-content: center;
-  gap: 40px;
+justify-content: center;
+gap: 940px;
 }
 .offer {
-margin-left: -530px;
+margin-left: -680px;
 margin-top: 500px;
 transform: translateX(15%);
 border: 2px solid #F2F2F2;
+gap: 40px;
 }
-
 .special {
-  margin-left: 40px;
+margin-left: 40px;
 }
 .rate {
-  transform: translateY(-610%);
+transform: translateY(-610%);
 }
 .fav{
 transform: translateX(620%);
@@ -246,9 +245,8 @@ order: 1;
 flex-grow: 0;
 }
 .review {
-  margin-left: -280px;
-  margin-top: 2300px;
-  grid-template-columns: repeat(3,1fr);
+margin-left: -280px;
+margin-top: 2300px;
 }
 .few {
 font-family: 'Montserrat';
@@ -260,11 +258,11 @@ text-align: center;
 color: #262729;
 }
 .wom {
-  transform: translateX(80%);
-  margin-top: 40px;
+transform: translateX(80%);
+margin-top: 40px;
 }
 .hotel {
-  margin-left: -10px;
+margin-left: -10px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -290,7 +288,7 @@ align-self: stretch;
 flex-grow: 0;
 }
 .hot {
-  font-family: 'Montserrat';
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -302,229 +300,143 @@ align-self: stretch;
 flex-grow: 0;
 transform: translateY(-210%);
 margin-left: 80px;
-  
 }
-
 .more {
-  margin-left: -10px;
+margin-left: -10px;
 }
 .post {
-  margin-left: -370px;
-  margin-top: 5090px;
+margin-left: -370px;
+margin-top: 5090px;
 }
 .rec {
-  text-align: center;
-  background-color: white;
-  border: 5px;
+text-align: center;
+background-color: white;
+border: 5px;
 }
 .may {
-  
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-
-
 color: #262729;
-
-
-
 }
 .vec {
-  margin-left: 220px;
-   transform: translateY(-120%) 
-
+margin-left: 220px;
+transform: translateY(-120%) 
 }
 .min {
-  
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
-
-
 text-align: right;
-
-
 color: #2A90D9;
-
-
-
 flex: none;
 order: 1;
 flex-grow: 0;
-
-  
 display: flex;
 padding: 0px;
 gap: 7px;
-
-
-
-
-
 transform: translateY(-330%);
 margin-left: 250px;
-
 }
 .to {
-  margin-top: -60px;
-  
-
+margin-top: -60px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
-
-
 color: #262729;
-
-
-
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-
-
 }
 .epi {
- 
-
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-
-
 color: #262729;
-
-
-
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
-
-
 }
-.title {
-  margin-left: -350px;
-  margin-top: 10300px;
+.title { 
+margin-left: -350px;
+margin-top: 10300px;
 }
 .sec {
-  
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 line-height: 20px;
-
 color: #262729;
-
-
-
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
-
-
 }
 .page {
-  
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-
 color: #262729;
-
-
-
 flex: none;
 order: 1;
 flex-grow: 0;
-
-
 }
 .sub {
-  margin-left: -370px;
-  
-
+margin-left: -370px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
 color: #262729;
-
-
 }
 .mail {
-  margin-left: -370px;
-  
-
+margin-left: -370px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-
 color: #262729;
-
-
 }
 .span-3 {
-  /* /6 night */
-
-
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-
 color: #2A90D9;
-
-
 }
 .bar {
-  margin-left: -370px;
+margin-left: -370px;
 }
 .arr {
-  margin-left: -45px;
-  transform: translateY(-3%);
+margin-left: -45px;
+transform: translateY(-3%);
 }
 hr {
-  border: 0;               
-  height: 1px;             
-  background-color: #999999;
-  width: 89%;              
-  margin: 40px auto; 
-
-
- 
-
+border: 0;               
+height: 1px;             
+background-color: #999999;
+width: 89%;              
+margin: 40px auto; 
 }
-
-
 .logo {
-  margin-left: -380px;
+margin-left: -380px;
 }
 .social {
-  margin-left: 10px;
+margin-left: 10px;
 }
 .design {
-  margin-left: -360px;
-  
-
+margin-left: -370px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-color: #262729;
-
-
-}
+color: #262729
