@@ -66,16 +66,12 @@ cd Hotel-website-I
  Here is a quick of the key HTML Structure:
  ```html
  <!-- Header Section -->
-  <div>
   <header> 
-       <div class="navbar">
-          <!-- Hamburger icon -->
-          <div class="hamburger" id="hamburger">
-            <img src="pictures/hamburger.svg" alt="" class="burger">
-              
-          </div>
+    <!-- Hamburger icon -->
+          <nav class="nav-menu" id="navMenu">
+          </nav>
         <!-- Navigation Menu -->
-      </header>
+  </header>
   <!... Hero images and content..>
   <<section class="globe">
        <!.. globe card and contents..>
