@@ -26,8 +26,8 @@ This project is built using HTML, CSS and Javascript.It provides a visually appe
 - A footer with additional links and information.
 
 ## Live-demo
-- Check out the live Demo of the project: [Live Demo]https://
--  A live video using loom: link to loom 
+- Check out the live Demo of the project: [Live Demo] https://hotel-website-i.onrender.com
+-  A live video using loom: link to loom https://www.loom.com/share/52c16321518d466b96954eda4da99aeb?sid=2c95122a-8906-4121-8fc3-304d4b650588
 
 ## Technologies Used
 
@@ -53,11 +53,11 @@ git clone https://github.com/musyelevateher/Hotel-website-I.git
 cd Hotel-website-I
 ```
 3. **Open the HTML Files**:
- Open `index.html` in your preffered web browser to view the project.
+ Open `Index.html` in your preffered web browser to view the project.
 
  ##Usage 
 
- -The CSS file (`styles.css`) includes various sections with classes that define the layout and styles for the web page.
+ -The CSS file (`Style.css`) includes various sections with classes that define the layout and styles for the web page.
  -To make any adjustments,edit the `styles.css` file, and the changes will reflect on the web page upon refreshing the browser.
  - All repititive contents in html had been cleared leaving parent container for each section and it will be rendered dynamically using Javascript "Main.js".
 
@@ -109,7 +109,10 @@ cd Hotel-website-I
 
 Include screenshots or GIFs of your project in action. This helps users understand what your project looks like and how it functions.
 
-![Screenshot 1]
+![Screenshot 1] c:\Users\USER\Pictures\Screenshots\Screenshot (27).png
+![Screenshot 2] c:\Users\USER\Pictures\Screenshots\Screenshot (28).png
+![Screenshot 3] c:\Users\USER\Pictures\Screenshots\Screenshot (30).png
+
 
 
 ## License
