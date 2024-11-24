@@ -12,6 +12,7 @@ background-color: white;
 color: white;
 padding: 10px 20px;
 margin-top: -20px;
+margin-left: -90px;
 }
 .menu-toggle {
 font-size: 24px;
@@ -67,6 +68,7 @@ padding: 20px;
 box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
 transform: translateX(100%);
 transition: transform 0.3s ease;
+z-index: 10;
 }
 .nav-menu.active {
 transform: translateX(0);
@@ -93,19 +95,20 @@ gap: 10px;
 }
 .logo {
 display: flex;
+margin-left: -90px;
+
 }
 .open-menu {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
-margin-left: -10px;
 }
 .user {
 margin-left: 180px;
 }
 .span-1 {
-color: #2A90D9;;
+color: #2A90D9;
 }
 .span-2 {
 font-family: 'Montserrat';
@@ -117,11 +120,12 @@ color: #EE685F;
 .globe {
 margin-top: 1400px;
 transform: translateX(90%);
-width: 100%;
+z-index: 1;
 }
 .sea {
-transform: translateY(-427%);
-margin-left:-400px
+transform: translateY(-315%);
+margin-left:-430px;
+width: 100%;
 }
 .corner {
 margin-left: -440px;
@@ -133,8 +137,8 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 color: #262729;
-margin-top: -1250px;
-margin-left: 50px;
+margin-top: -1370px;
+margin-left: 20px;
 line-height: 35px;
 }
 .apartment {
@@ -143,25 +147,26 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 color: #262729;
-margin-left: 50px;
+margin-left: 20px;
 line-height: 24px;
 }
 .search {
-transform: translateY(-530%);
-margin-left: -400px;
+transform: translateY(-300%);
+margin-left: -430px;
+width: 100%;
 } 
 .location {
-transform: translateY(-2210%);
-margin-left: -310px;
+transform: translateY(-1900%);
+margin-left: -440px;
 }
 .inquiry {
-transform: translateY(-1520%);
+transform: translateY(-1320%);
 margin-left: -330px;
 }
 .abda {
 font-size: 15px;
 font-family: 'Montserrat';
-font-style: normal
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 18px;
@@ -178,11 +183,11 @@ margin-top: -20px;
 gap: 10px;
 }
 .ask {
-transform: translateY(-1480%);
-margin-left: -118px;
+transform: translateY(-1300%);
+margin-left: -30px;
 }
 .main {
-margin-top: -1050px;
+margin-top: -900px;
 margin-left: 20px;
 text-align: center;
 }
@@ -296,16 +301,14 @@ margin-top: 70px;
 border: 1px solid #f2f2f2;
 }
 .few {
-position: absolute;
+text-align:
 width: 119px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 28px;
-text-align: center;
 color: #262729;
 margin-top: -40px;
-margin-left: 190px;
 }
 .wom {
 margin-top: 60px;
@@ -343,7 +346,7 @@ font-weight: 400;
 }
 .more {
 margin-top: 30px;
-margin-left: -120px;
+width: 100%;
 }
 .post {
 text-align: center;
