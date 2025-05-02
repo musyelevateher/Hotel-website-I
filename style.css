@@ -1,0 +1,352 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  }
+ header {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+ }
+.menu-toggle {
+  width: 10%;
+  height: 10%;
+  margin-top: 28px;
+}
+.logo {
+  display: flex;
+}
+.span-2 {
+  font-size: 32px;
+}
+.user {
+  margin-left: 70px;
+  width: 12%;
+}
+.sea {   
+  width: 100%;
+  margin-left: 6px;
+}
+.corner {
+  margin-top: -280px;
+}
+.vacation {
+  margin-left: 10px;
+  font-size: 2rem;
+}
+.apartment {
+  margin-left: 15px;
+}
+.search {
+  width: 100%;
+}
+.inquiry {
+  display: flex;
+}
+.main {
+  text-align: center;
+}
+.special {
+  text-align: center;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+#icon {
+    margin-left: 30px;
+    float: right;
+    margin-top: -5px;
+}
+.logo {
+    display: flex;
+}
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.header {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.header h1 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #2A90D9;
+    margin-left: 60px;
+    margin-top: -30px;
+    
+}
+.header h1 span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #EE685F;
+    }
+.menu-toggle {
+  display: block;
+  border: none;
+  background-color:white ;
+  margin-right: 210px;
+
+}
+.menubar {
+  /* margin-top: -30px;
+  margin-bottom: 10px; */
+}
+.nav-menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  display: flex; /* <--- Keep it always displayed, just off-screen */
+  visibility: hidden; /* <--- Hide visually when off-screen */
+  pointer-events: none; /* <--- Disable interaction when off-screen */
+    
+    
+}
+#nav-icon {
+    margin-left: 40px;
+    margin-top: 15px;
+    height: 35px;
+}
+.nav-menu.active {
+  transform: translateX(0);
+  visibility: visible;
+  pointer-events: auto;
+}
+.nav-menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+    list-style: none;
+    
+}
+.nav-menu li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+#gap {
+    margin-top: 20px;
+    
+}
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 20px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+}
+
+.nav-menu.active {
+  display: flex;
+  transform: translateX(0);
+}
+
+.close-menu {
+    display: block;
+    border: none;
+    background-color:white ;
+    font-size: 50px;
+    margin-top: -5px;
+}
+
+.links {
+    margin-top: 130px;
+}
+#phone{
+    margin-left: 10px;
+}
+#Facebook{
+    margin-left: 5px;
+}
+#ytube{
+    margin-left: 5px;
+}
+#inst{
+    margin-left: 5px;
+}
+#tele{
+    margin-left: 5px;
+}
+.mon-lan {
+    margin-top: 10px;
+}
+.second {
+  margin-left: -230px;
+  margin-top: 19px;
+  display: flex;
+}
+.firstlogo{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #2A90D9;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+.secondlogo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #EE685F;
+}
+.rate{
+  position: absolute;
+  margin-top: -180px;
+  margin-left: 10px;
+}
+.fav {
+  margin-left: 260px;
+  position: absolute;
+  margin-top: -175px;
+}
+
+.few{
+  text-align: center;
+}
+.woman{
+margin-left: 100px;
+}
+.rec{
+  text-align: center;
+  font-size: 30px;
+}
+.environ{
+  width: 100%;
+  margin-left: 10px;
+}
+.may{
+  font-size: 15px;
+  margin-left: 10px;
+}
+.vec{
+  margin-left: 205px;
+  transform: translateY(-30px);
+}
+.min{
+  font-size: 100%;
+  color: lightskyblue;
+margin-left: 230px;
+transform: translateY(-66px);
+}
+
+.bar {
+width: 100%;
+margin-top: -20px;
+}
+.arr{
+margin-left: 280px;
+transform: translateY(-43px);
+}
+.span-1{
+/* Your.logo */
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+color: #2A90D9;
+
+
+
+}
+.span-2{
+
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #EE685F;
+}
+.sec{
+  margin-left: 10px;
+}
+.page{
+  margin-left: 10px;
+}
+.sub{
+  margin-left: 10px;
+}
+.mail{
+  margin-left: 10px;
+}
+hr{
+  margin-top: -20px;
+}
+
+.span-3{
+
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #2A90D9;
+
+
+}
+.hotel {
+  text-align: center;
+}
+.pub {
+font-style: italic;
+text-align: center;
+}
+.to {
+margin-left: 3px;
+}
+.epi {
+margin-left: 5px;
+}
+.open-menu {
+margin-left: 5px;
+}
+.social {
+margin-left: 8px;
+
