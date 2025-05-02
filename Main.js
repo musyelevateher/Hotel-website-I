@@ -1,18 +1,23 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const menuToggle = document.getElementById('menuToggle');
-  const closeMenu = document.getElementById('closeMenu');
-  const navMenu = document.getElementById('navMenu');
-  
-  if (menuToggle && navMenu && closeMenu) {
-      menuToggle.addEventListener('click', () => {
-          navMenu.classList.toggle('active');
-      });
-     closeMenu.addEventListener('click', () => {
-          navMenu.classList.remove('active');
-      });
+document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  // This adds the toggle logic
+  if (menuToggle && navMenu) {
+    menuToggle.addEventListener("click", function () {
+    navMenu.classList.add("active");
+    });
   }
+
+  // Use event delegation for closing, in case it's nested
+  document.addEventListener("click", function (e) {
+    if (e.target.closest("#closeMenu")) {
+      navMenu.classList.remove("active");
+    }
+  });
 });
 
+  
 
     // Data array
     const chooseusContainer = [
@@ -93,17 +98,23 @@ document.addEventListener("DOMContentLoaded", function() {
     if (specialofferContainerElem) {
       specialOfferData.forEach(item => {
         const div = document.createElement("div");
+        div.className = "card-wrapper";
+      
+      
 
         div.innerHTML = `
-          <img src="${item.img1}" alt="" class="bed">
-          <img src="${item.img2}" alt="" class="rate">
-          <img src="${item.img3}" alt="" class="fav">
-          <h2 class="club">${item.club}</h2>
-          <h3 class="date">${item.date}</h3>
-          <div class="nite">
-            <h4 class="span-1">${item.price} <span class="span-3">${item.nights}</span></h4>
+          <div class="card">
+            <img src="${item.img1}" alt="bed" class="bed">   <!-- bed -->
+            <img src="${item.img2}" alt="rating" class="rate">  <!-- rating -->
+            <img src="${item.img3}" alt="fav" class="fav">
+            <h2 class="club">${item.club}</h2>
+            <h3 class="date">${item.date}</h3>
+            <div class="nite">
+              <h4 class="span-1">${item.price} <span class="span-3">${item.nights}</span></h4>
+            </div>
           </div>
-        `;
+           `;
+
 
         specialofferContainerElem.appendChild(div);
       });
@@ -143,9 +154,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
             // Create the inner HTML content dynamically
             div.innerHTML = `
-              <img src="${review.img}" alt="">
+              <img src="${review.img}" alt="" class="woman">
               <p class="hotel">${review.text}</p>
-              <h2 class="pub">${review.name},<strong class="flight">${review.role}</strong></h2>
+              <p class="pub">${review.name},<italic class="flight">${review.role}</italic></p>
             `;
     
             // Append the "more review" image only for the last review
@@ -201,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <img src="pictures/vector.svg" class="vec">
         <h2 class="min">${post.time}</h2>
         <h3 class="to">${post.title}</h3>
-        <h4 class="epi">${post.description}</h4>
+        <p class="epi">${post.description}</p>
       `;
 
       // Append the div to the container

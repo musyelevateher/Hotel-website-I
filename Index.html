@@ -10,64 +10,60 @@
   <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-  <header>
-    <button id="menuToggle" class="menu-toggle">&#9776;</button>
-     <nav id="navMenu" class="nav-menu">
-         <button id="closeMenu" class="close-menu">&times;</button>
-         <ul>
-            <li><a href="#">Last Minute Deals</a></li>
-             <li><a href="#">Blog</a></li>
-             <li><a href="#">About US</a></li>
-             <li><a href="#">Contacts</a></li>
-         </ul>
-        <div class="currency">
-          <img src="pictures/money.svg" alt="" >
+  <header class="header">
+    <div id="menuToggle" class="menu-toggle"><img src="pictures/menu.png" alt="" class="menubar"></div>
+    <nav id="navMenu" class="nav-menu grid">
+        <div class="logo">
+            <div id="closeMenu" class="close-menu"><img src="pictures/close menu.png" alt=""></div>
+            <h1 id="logo">Your<span>.logo</span></h1>
+            <img src="pictures/User icon.svg" alt="" id="nav-icon">
         </div>
-        <div class="language">
-          <img src="pictures/language.svg" alt="" >
+        <ul>
+            <li id="gap"><a href="#">Last Minute Deals</a></li>
+            <li id="gap"><a href="#">Blog</a></li>
+            <li id="gap"><a href="#">About us</a></li>
+            <li id="gap"><a href="#">Contacts</a></li>
+        </ul>
+        <div class="mon-lan">
+            <img src="pictures/money.svg" alt="" id="money">
+            <img src="pictures/language.svg" alt="" id="language">
         </div>
-        <div class=" social-way">
-          <img src="pictures/Phone_black.svg" alt="">
-          <img src="pictures/facebook.svg" alt="">
-          <img src="pictures/Youtube_black.svg" alt="">
-          <img src="pictures/Instagram.svg" alt="">
-          <img src="pictures/Telegram.svg" alt="">
-        </div>  
-      </nav>
-      <div class="logo">
-          <h1 class="open-menu"><span class="span-1">Your</span></h1>
-          <h2><span class="span-2">.logo</span></h2>
-          <img src="pictures/User icon.svg" alt="" class="user">
-      </div>
-  </header>
-  <section class="globe">
+        <div class="links" id="social">
+            <img src="pictures/Phone_black.svg" alt="" id="phone">
+            <img src="pictures/facebook.svg" alt="" id="Facebook">
+            <img src="pictures/Youtube_black.svg" alt="" id="ytube">
+            <img src="pictures/Instagram.svg" alt="" id="inst">
+            <img src="pictures/Telegram.svg" alt="" id="tele">
+        </div>
+    </nav>
+    <h2 class="second"> <span class="firstlogo">Your</span> <span class="secondlogo">.logo</span></h2>
+    <img src="pictures/User icon.svg" alt="" id="icon">
+</header>
+<section class="globe">
     <div>
       <img src="pictures/sea.svg" alt="" class="sea">
     </div>
     <div class="corner">
-      <h1 class="vacation">Find an apartment <br> for your vacation</h1>
-      <h2 class="apartment">We have several thousand <br>apartments for every taste <br>in every corner of the globe</h2>
+      <h1 class="vacation">Find an apartment <br> <span class="break">for your vacation</span></h1>
+      <p class="apartment">We have several thousand <br>apartments for every taste <br>in every corner of the globe</p>
     </div>
     <div>
-      <h1>
-        <img src="pictures/search bar.svg" alt="" class="search">
-        <img src="pictures/direction.svg" alt="" class="location">
-      </h1>
-      <div class="inquiry">
-      <h2 class="abda">Where</h2>
-      <h3 class="abda-1">Search destination</h3>
+        <img src="pictures/Big Bar.svg " alt= "" class="search">
+      </div> 
+      
     </div>
-    </div>
-    <div>
-      <img src="pictures/button.svg" alt="" class="ask">
+      
     </div>
   </section>
-  <section class="main">
-    <h1 class="choose">Why Choose Us</h1>
-    <h2 class="reason">The main reason is because our <br>competitors have disgusting <br>sites, but we can't write that <br> here, so the text here will be <br>different</h2>
-    <div id="chooseusContainer">
-    </div>
-  </section>
+  <div class="all">
+    <section class="main">
+      <h1 class="choose">Why Choose Us</h1>
+      <p class="reason">The main reason is because our competitors have disgusting sites, but we can't write that here, so the text here will be different</p>
+      <div id="chooseusContainer">
+      </div>
+    </section>
+  </div>
+  
   <section class="offer">
     <div class="listcard">
       <div class="card">
